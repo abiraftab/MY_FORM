@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(image/pic.jpg);
+    background-size: cover;
+}
+.container{
+    width:1160px;
+    margin: 0 auto;
+    
+}
+.logo{
+    float: left;
+    margin-top: 3px;
+}
+.logo img{
+    width:130px;
+}
+.top_var{
+    background-color: #293E49;
+    overflow: hidden;
+    min-height: 45px;
+    padding: 5px 0px;
+}
+.myform input[type="text"]{
+    margin-left: 100px;
+    border:none;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 2px;
+    margin-top: 7px;
+    width:230px;
+    height: 20px;
+    margin-right: 10px;
+}
+.myform input[type="password"]{
+    border:none;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 2px;
+    margin-top: 7px;
+    width:230px;
+    height: 20px;
+    margin-right: 10px;
+}
+.button{
+   background-color: #293E49;
+   color:#fff;
+   width:auto;
+   padding: 5px 10px;
+   border:1px solid #fff;
+    margin-right: 20px;
+    font-weight: 600;
+}
+.button:hover{
+  background-color: #fff;
+  color:#000;
+  cursor: pointer;
+  transition: .7s all ease;
+}
+.myform a{
+    color:#fff;
+    text-decoration: none;
+}
+.form_wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 500px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+.top_text{
+    border-bottom: 1px solid #CACCCF;
+}
+.top_text h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: arial;
+    margin: 30px 10px 25px;
+    color:#333333;
+    font-weight: lighter;
+    
+}
+.top_text p{
+    text-align: center;
+    font-family: arial;
+    color:#333333;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.scnd_form{
+    padding: 25px 40px;
+    background-color: #EDF0F3;
+}
+.scnd_form input{
+    width:100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius:2px;
+    border: 1px solid #CACCCF;
+}
+.scnd_form input[type="text"], .scnd_form input[type="password"]{
+    font-weight: 700;
+}
+.scnd_form .paraone{
+    text-align: center;
+    margin: 10px 0px 0px;
+    color:#333333;
+    font-family: arial;
+}
+.scnd_form .paratwo{
+    text-align: center;
+    margin: 5px 0px 15px;
+    color:#333333;
+     color:#333333;
+}
+label{
+    color:#333333;
+    font-weight: 700;
+    margin-bottom:10px;
+    display: inline-block;
+    font-family: arial;
+}
+.scnd_form a{
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #5591c4;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    color:#EDF0F3;
+    font-size: 20px;
+}
+.scnd_form a:hover{
+   color:#fff;
+   background-color:#091927; 
+    transition:1s all ease;
+}
+
+
+
+
